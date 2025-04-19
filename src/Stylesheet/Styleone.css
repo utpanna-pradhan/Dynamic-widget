@@ -1,0 +1,21 @@
+.dashone_row{
+    display: flex;
+    /* gap: 15px; */
+    /* gap: .9375rem; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100vw;
+}
+.card{
+    width: 400px;
+}
+.recharts-legend-wrapper{
+   right: -25px !important; 
+}
+.recharts-layer text , .recharts-pie-label-line{
+    display: none;
+}
+.recharts-legend-item-text{
+    color: black !important;
+}
